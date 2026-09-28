@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/plantoken",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Plan CSV/TSV token tables for quick inspection and cleanup.",
+  "bin": {
+    "plantoken": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/plantoken.git"
+  },
+  "homepage": "https://theworker02.github.io/plantoken/",
+  "keywords": [
+    "plan",
+    "token",
+    "csv",
+    "cli",
+    "toolkit"
+  ]
+}
